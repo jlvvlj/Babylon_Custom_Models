@@ -19,9 +19,9 @@ export default defineComponent({
 <style>
 * {
   padding:0;
-  margin:0;
-  background-image: url("../public/images/Background_Dots.png");   
+  margin:0; 
   background-size: cover;
+  background-color: #33334d;
   background-position:center;
 }
 
@@ -31,7 +31,6 @@ export default defineComponent({
   display:flex;
   justify-content: center;
   align-items: center; 
-  margin-top:4rem;
 }
 
 

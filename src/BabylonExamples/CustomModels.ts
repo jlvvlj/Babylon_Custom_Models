@@ -31,7 +31,7 @@ export class CustomModels {
     const scene = new Scene(this.engine);
     const camera = new FreeCamera(
       "camera",
-      new Vector3(0, -2, -300),
+      new Vector3(0, -2, -400),
       this.scene
     );
     camera.attachControl();
@@ -115,8 +115,10 @@ export class CustomModels {
       "journey.glb"
     );
 
-    models.meshes[0].position = new Vector3(-20, 12, 5);
+    models.meshes[0].position = new Vector3(-30, 0, 0);
+    models.meshes[0].rotation = new Vector3(0, 25, 0);
 
+    
     console.log("models", models);
   }
 }
